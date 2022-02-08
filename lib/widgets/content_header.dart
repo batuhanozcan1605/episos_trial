@@ -68,7 +68,7 @@ class ContentHeader extends StatelessWidget {
                 ),
               ),
               GestureDetector(
-                onTap: () => print('diziye gidildi') ,
+                onTap: () => print('diziye gidildi'),
                 child: HeaderIconButton(
                   svgButton: Assets.goButton,
                   title: "Diziye git",
